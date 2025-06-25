@@ -206,5 +206,10 @@ def callback_report(call):
     bot.send_message(call.message.chat.id, report_text)
 
 
+@bot.message_handler(commands=['myid'])
+def myid_command(message):
+    bot.send_message(message.chat.id, f"🆔 Ваш Telegram ID: `{message.from_user.id}`", parse_mode="Markdown")
+
+
 if __name__ == '__main__':
     bot.infinity_polling()
