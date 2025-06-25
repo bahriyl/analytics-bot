@@ -4,6 +4,7 @@ WHITELIST_IDS:
   - 673216588
   - 673216588
   - 69461821
+  - 553569900
 GOOGLE_SHEET_ID: "1Mw-X75_yTpljaHueKgkorCxlXe6GUNMLO-Ixhdtgg1U"
 GOOGLE_CREDENTIALS_FILE: "/etc/secrets/credentials_2.json"
 RANGE_NAME: "Sheet1!A:F"
